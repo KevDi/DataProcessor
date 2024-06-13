@@ -1,0 +1,23 @@
+; Version: V01
+; Date:    12/07/2018
+; Time:    13:17:59
+;
+\DataStructures\ResultDataStruct\FU1 #Index
+  _Format = REG_DWORD 0x0
+  _Crc32_Struct = REG_DWORD 0x5bd3e42f
+  _Id = "0887fcf8-0612-48a9-affb-3025e25001bd"
+  _VersionDate = "4.344155415509e+004"
+  _DBDataClass = REG_DWORD 0x0
+  _DBStructVersion = "cdd7702acffd.eFu1.ResultData_5bd3e42f"
+  Security = REG_DWORD 0x0
+  _SwVersion
+    VarType = REG_DWORD 0x8
+    Data = "V02.05.000"
+  ResHead #Index
+    StructName = "DbResultDataHeadStruct"
+    TypeNo
+      VarType = REG_DWORD 0x8
+      Data = "0445116059"
+    TypeVar
+      VarType = REG_DWORD 0x8
+      Data = ""

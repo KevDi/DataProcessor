@@ -1,0 +1,16 @@
+add_subdirectory(core)
+if (BUILD_INPUTS)
+	add_subdirectory(filesysteminput)
+	add_subdirectory(app)
+	add_subdirectory(pipeline)
+endif()
+
+if (BUILD_COMMANDS)
+	add_subdirectory(commands)
+	add_subdirectory(addmetadatacommand)
+	add_subdirectory(wrapcommand)
+	add_subdirectory(kafkasendercommand)
+	add_subdirectory(cleanupcommand)
+	add_subdirectory(errorcommand)
+endif()
+
