@@ -65,7 +65,6 @@ class dataProcessorRecipe(ConanFile):
         self.version = load(self, "VERSION").lower()
 
     def requirements(self):
-        self.requires("openssl/3.1.0")
         self.requires("poco/1.13.3", transitive_headers=True, transitive_libs=True)
         self.requires("prometheus-cpp/1.1.0", transitive_headers=True)
         self.requires("nlohmann_json/3.11.3")

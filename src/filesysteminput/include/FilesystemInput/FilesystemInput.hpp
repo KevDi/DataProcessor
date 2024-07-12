@@ -20,6 +20,6 @@ namespace filesysteminput {
   private:
     std::function<void(const std::string&, const std::string&)> callback_;
     std::unique_ptr<std::thread> worker_{};
-    bool stopped_;
+    bool stopped_{ false };
   };
 }

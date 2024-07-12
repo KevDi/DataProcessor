@@ -43,7 +43,7 @@ namespace commands {
 
     std::string content = message->content();
     new_content[config_[CFG_CMD_WRAP_ELEMENT]] = content;
-    ;
+    
     message->content(to_string(new_content));
   }
 

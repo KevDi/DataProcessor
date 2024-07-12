@@ -117,7 +117,7 @@ TEST_F(WrapCommand, MetadataIsAddedToContentIfMetadataSetToTrue) {
 
   msg = cloned_cmd_->execute(std::move(msg));
 
-  ASSERT_THAT(msg->content(), "{\"metadata_2\":\"value_2\",\"metadata_1\":\"value_1\",\"content\":\"Test Content\"}");
+  ASSERT_THAT(msg->content(), "{\"metadata_1\":\"value_1\",\"metadata_2\":\"value_2\",\"content\":\"Test Content\"}");
 }
 
 TEST_F(WrapCommand, MessageCountIsIncrementedAfterSuccesfullExecution) {

@@ -32,7 +32,7 @@ namespace filesysteminput {
         std::ifstream t(dir_entry.path());
         std::stringstream buffer;
         buffer << t.rdbuf();
-        callback_(dir_entry.path(), buffer.str());
+        callback_(dir_entry.path().string(), buffer.str());
       }
       std::this_thread::sleep_for(std::chrono::seconds(2));
     }

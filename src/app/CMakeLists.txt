@@ -6,4 +6,4 @@ set_target_properties(Application PROPERTIES
                     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
 
-target_link_libraries(Application PRIVATE JKD::DataProcessor::Core JKD::DataProcessor::FilesystemInput)
+target_link_libraries(Application PRIVATE JKD::DataProcessor::Core JKD::DataProcessor::FilesystemInput JKD::DataProcessor::Commands JKD::DataProcessor::AddMetadataCommand JKD::DataProcessor::ErrorCommand JKD::DataProcessor::WrapCommand JKD::DataProcessor::Pipeline)

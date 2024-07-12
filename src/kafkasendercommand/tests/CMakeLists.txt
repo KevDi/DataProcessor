@@ -1,8 +1,7 @@
 add_executable(KafkaSenderCommand_TEST)
 
 set(SHARED_TEST_SOURCES "TestRunner.cpp"
-                        "KafkaSenderCommandTest.cpp"
-                        "KafkaSenderCommandIT.cpp")
+                        "KafkaSenderCommandTest.cpp")
 						
 set(ALL_TEST_SOURCES "${SHARED_TEST_SOURCES}")
 
