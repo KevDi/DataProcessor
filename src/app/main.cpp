@@ -8,7 +8,7 @@
 #include <WrapCommand/WrapCommand.hpp>
 #include <ErrorCommand/ErrorCommand.hpp>
 #include <Pipeline/Pipeline.hpp>
-#include <core/Message.hpp>
+#include <Core/Message.hpp>
 
 class TestCommand : public commands::Command {
   void checkPreconditionsImpl(core::Message* msg) override {
